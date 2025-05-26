@@ -1,0 +1,67 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+
+header{
+    width: 100%;
+    height: 30px;
+    background-color: lightblue;
+    text-align: center;
+    padding-top: 5px;
+}
+
+main
+{
+    float: left;
+    background-color: lightblue;
+    width: 100%;
+    height: 600px;
+    margin: 5px;
+}
+
+.clear
+{
+    /* clear float*/
+    clear: both;
+}
+
+footer 
+{
+    width: 100%;
+    height: 20px;
+    background-color: lightblue;
+    padding-top: 20px;
+}
+
+nav{
+    width: 100%;
+    height: 20px;
+    background-color: lightblue;
+}
+
+nav li
+{
+    float: left;
+    margin-right: 10px;
+    padding-left: 10px;
+
+}
+
+nav ul
+{
+    list-style-type: none;
+    padding-bottom: 5px;
+}
+
+nav li a 
+{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    
+}
